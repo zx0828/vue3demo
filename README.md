@@ -1,32 +1,16 @@
 # vue3demo
 
-基于 Vue 3 + Vite 的前端演示项目，集成了 UnoCSS、Ant Design Vue 和 APNG 动画播放功能。
+此模板可帮助你快速开始使用 Vue 3 和 Vite 进行开发。
 
-## 技术栈
+## 推荐 IDE 设置
 
-- **Vue 3** (v3.3.4+) - 渐进式 JavaScript 框架，使用 Composition API
-- **Vite** (v4.3.9) - 下一代前端构建工具
-- **UnoCSS** (v66.5.4) - 即时原子化 CSS 引擎
-- **Ant Design Vue** (v3.2.20) - 企业级 UI 组件库
-- **apng-js** - APNG 动画解析库
-- **vue-draggable-resizable** - 元素拖拽和缩放组件
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（并禁用 Vetur）+ [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)。
 
-## 功能特性
+## 自定义配置
 
-- 🎨 **UnoCSS 原子化 CSS** - 支持自定义主题色、规则和快捷方式
-- 🎬 **APNG 动画播放** - 解析并播放 APNG 格式动画图片
-- 📊 **可拖拽表格** - 支持列宽拖拽调整的 Ant Design 表格
-- 🌓 **明暗主题** - 自动适配系统颜色偏好
-- 🎯 **组件自动导入** - Ant Design Vue 组件按需自动引入
+请参阅 [Vite 配置参考](https://vitejs.dev/config/)。
 
-## 快速开始
-
-### 环境要求
-
-- Node.js 14+ 
-- npm / pnpm
-
-### 安装依赖
+## 项目设置
 
 ```sh
 npm install
@@ -40,9 +24,7 @@ pnpm install
 npm run dev
 ```
 
-启动后访问：http://localhost:13000
-
-### 生产构建
+### 生产环境编译和压缩
 
 ```sh
 npm run build
